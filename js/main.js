@@ -29,7 +29,6 @@ $(document).ready(function() {
     //In base al valore scelto mostro una serie di risultati
     $("select#music_genre").change(function(){
       //variabile che contiene il valore option di selected
-      console.log($("select#music_genre").val())
       var selectedMusicGenre = $(this).children("option:selected").val();
       console.log(selectedMusicGenre)
       //Variabile che rappresenta il div in cui dovro` stampare i risultati
